@@ -57,30 +57,30 @@ const Header = () => {
               <Navbar.Toggle aria-controls='responsive-navbar-nav' />
               <Navbar.Collapse id='responsive-navbar-nav'>
                 <Nav className='m-auto gggg mx-auto'>
-                  <LinkContainer to='/'>
+                  <LinkContainer to='/agrikol-landing-page'>
                     <Nav.Link>Home</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to='/services'>
+                  <LinkContainer to='/agrikol-landing-page/services'>
                     <Nav.Link>Services</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to='/ourprojects'>
+                  <LinkContainer to='/agrikol-landing-page/ourprojects'>
                     <Nav.Link>Our Projects</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to='/shop'>
+                  <LinkContainer to='/agrikol-landing-page/shop'>
                     <Nav.Link>Shop</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to='/pages'>
+                  <LinkContainer to='/agrikol-landing-page/pages'>
                     <Nav.Link>Pages</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to='/news'>
+                  <LinkContainer to='/agrikol-landing-page/news'>
                     <Nav.Link>News</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to='/contact'>
+                  <LinkContainer to='/agrikol-landing-page/contact'>
                     <Nav.Link>Contact</Nav.Link>
                   </LinkContainer>
                 </Nav>
               </Navbar.Collapse>
-              <LinkContainer to='/'>
+              <LinkContainer to=''>
                 <Nav.Link>
                   <BiCart className='cart_icon nav__icon' />
                 </Nav.Link>

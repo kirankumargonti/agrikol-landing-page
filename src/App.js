@@ -22,13 +22,16 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/ourprojects' component={OurProjects} />
-          <Route path='/shop' component={Shop} />
-          <Route path='/pages' component={Pages} />
-          <Route path='/news' component={News} />
-          <Route path='/contact' component={Contact} />
+          <Route path='/agrikol-landing-page' exact component={Home} />
+          <Route path='/agrikol-landing-page/services' component={Services} />
+          <Route
+            path='/agrikol-landing-page/ourprojects'
+            component={OurProjects}
+          />
+          <Route path='/agrikol-landing-page/shop' component={Shop} />
+          <Route path='/agrikol-landing-page/pages' component={Pages} />
+          <Route path='/agrikol-landing-page/news' component={News} />
+          <Route path='/agrikol-landing-page/contact' component={Contact} />
           <Route path='*' component={NotFound} />
         </Switch>
         <ArrowUp />
