@@ -80,13 +80,11 @@ const Header = () => {
                   </LinkContainer>
                 </Nav>
               </Navbar.Collapse>
-              <Nav>
-                <LinkContainer to='/'>
-                  <Nav.Link>
-                    <BiCart className='cart_icon nav__icon' />
-                  </Nav.Link>
-                </LinkContainer>
-              </Nav>
+              <LinkContainer to='/'>
+                <Nav.Link>
+                  <BiCart className='cart_icon nav__icon' />
+                </Nav.Link>
+              </LinkContainer>
             </Container>
           </Navbar>
         </div>

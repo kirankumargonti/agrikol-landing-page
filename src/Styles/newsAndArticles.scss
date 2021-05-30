@@ -61,9 +61,10 @@
         }
       }
       .blog__Card__body {
-        padding: 0 30px 10px 10px;
+        padding: 0 30px 10px;
         .blog__content {
           background: rgb(255, 255, 255);
+          margin: auto;
           margin-top: -30px;
           position: relative;
           border-radius: 5px;
@@ -100,9 +101,12 @@
             color: $gray;
             cursor: pointer;
             font-family: $Barlow;
+            text-transform: unset;
+
           }
           .button {
             color: $black;
+            margin-top: 20px;
             span {
               color: $brand_two;
               margin-right: 10px;

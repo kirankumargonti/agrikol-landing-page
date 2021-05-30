@@ -33,18 +33,6 @@
             text-transform: uppercase;
             letter-spacing: 0.2em;
             position: relative;
-            &:before {
-              position: absolute;
-              left: -5px;
-              bottom: -21px;
-              right: 0;
-              height: 23px;
-              width: 365px;
-              background: url('../Assets/line1.png');
-              background-repeat: repeat;
-              background-repeat: no-repeat;
-              content: '';
-            }
           }
           h1 {
             margin: 35px 0 33px;
