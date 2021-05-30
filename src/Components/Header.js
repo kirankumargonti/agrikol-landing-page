@@ -30,7 +30,7 @@ const Header = () => {
             </p>
           </div>
           <div className='header__up__middle'>
-            <LinkContainer to='/'>
+            <LinkContainer to='/agrikol-landing-page'>
               <Image src={Logo} />
             </LinkContainer>
           </div>
@@ -80,11 +80,9 @@ const Header = () => {
                   </LinkContainer>
                 </Nav>
               </Navbar.Collapse>
-              <LinkContainer to=''>
-                <Nav.Link>
-                  <BiCart className='cart_icon nav__icon' />
-                </Nav.Link>
-              </LinkContainer>
+              <Nav.Link>
+                <BiCart className='cart_icon nav__icon' />
+              </Nav.Link>
             </Container>
           </Navbar>
         </div>
