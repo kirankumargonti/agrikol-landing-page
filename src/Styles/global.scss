@@ -57,3 +57,22 @@ a {
 svg {
   vertical-align: middle;
 }
+
+.header__caption {
+  color: $brand_one;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: $Barlow;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section__title {
+  color: $black;
+  font-family: $Amatic;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 70px;
+}

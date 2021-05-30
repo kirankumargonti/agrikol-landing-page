@@ -1,5 +1,9 @@
 // X-Small devices (portrait phones, less than 576px)
 @media screen and (max-width: 576px) {
+  .section__title {
+    font-size: 45px;
+    line-height: 1.2;
+  }
   .agriculture__types {
     .agriculture__container {
       .video__tag {
@@ -59,6 +63,19 @@
       button {
         width: 145px;
         height: 70px;
+      }
+    }
+  }
+  .testimonials {
+    &__left {
+      h1 {
+        font-size: 40px;
+      }
+    }
+    &__right {
+      padding: 67px 10px 80px;
+      .sds {
+        font-size: 16px;
       }
     }
   }

@@ -29,16 +29,22 @@ const Testimonials = () => {
           </Col>
           <Col xl={6} lg={6} md={12} sm={12}>
             <div className='testimonials__right'>
-              <p>
+              <p className='sds'>
                 This is due to their excellent service, and augue homero
                 consectetuer in nam. Eu quo laoreet propriae, malis exerci
                 habemus has vocent persius eum ea.
               </p>
               <div className='test_bottom'>
-                <div className='circle'></div>
+                <div className='circles'>
+                  <Image
+                    src='https://avatars.githubusercontent.com/u/42517251?v=4'
+                    alt=''
+                    roundedCircle
+                  />
+                </div>
                 <div>
-                  <h1>4,850,000</h1>
-                  <p>Agriculture projects are completed</p>
+                  <h1>Kirankumar Gonti</h1>
+                  <p>Frontend Developer</p>
                 </div>
               </div>
             </div>
