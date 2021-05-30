@@ -1,0 +1,50 @@
+.contact {
+  background: url('https://images.pexels.com/photos/3458362/pexels-photo-3458362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+    no-repeat center center/cover;
+  height: 80vh;
+  width: 100% !important;
+  background-attachment: fixed !important;
+  position: relative !important;
+  &:before {
+    @include transparentLayer;
+  }
+  @include displayCenter(center, center);
+  .content {
+    position: relative;
+    h1 {
+      font-family: $Amatic;
+      font-weight: 700;
+      color: $white;
+      font-size: 70px;
+    }
+  }
+}
+
+.new {
+  background: url('https://images.pexels.com/photos/1382102/pexels-photo-1382102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+    no-repeat center center/cover;
+  height: 80vh;
+}
+.pages {
+  background: url('https://images.pexels.com/photos/2158060/pexels-photo-2158060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+    no-repeat center center/cover;
+  height: 80vh;
+}
+.shop {
+  background: url('https://images.pexels.com/photos/4712729/pexels-photo-4712729.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500')
+    no-repeat center center/cover;
+  height: 80vh;
+}
+
+.OurProjects {
+  background: url('https://images.pexels.com/photos/2889442/pexels-photo-2889442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+    no-repeat center center/cover;
+  height: 80vh;
+}
+
+.Services {
+  background: url('https://images.pexels.com/photos/451573/pexels-photo-451573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+    no-repeat center center/cover;
+  height: 80vh;
+}
+

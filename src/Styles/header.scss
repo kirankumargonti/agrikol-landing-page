@@ -1,0 +1,63 @@
+.header {
+  padding: 20px 0;
+  background-color: #ffffff !important;
+  &__up {
+    @include displayCenter(center, space-between);
+    &__up {
+      @include displayCenter(center, center);
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        &:nth-child(2) {
+          margin-left: 10px;
+        }
+      }
+    }
+    &__middle {
+      margin: auto;
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        cursor: pointer;
+      }
+    }
+    &__down {
+      @include displayCenter(center, center);
+      .icon_wrapper {
+        margin: 0 5px;
+        background-color: $brand_three;
+        min-width: 50px;
+        min-height: 50px;
+        border-radius: 50%;
+        @include displayCenter(center, center);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          background-color: $brand_one;
+          color: $white;
+        }
+      }
+    }
+  }
+  &__down {
+    .navbar {
+      background-color: #ffffff !important;
+      .nav__icon {
+        font-size: 25px;
+      }
+      .gggg {
+        a {
+          margin: 0 20px;
+        }
+        .active {
+          background-color: $brand_two;
+          border-radius: 5px;
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}

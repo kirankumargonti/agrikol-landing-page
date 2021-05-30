@@ -1,0 +1,129 @@
+// X-Small devices (portrait phones, less than 576px)
+@media screen and (max-width: 576px) {
+  .agriculture__types {
+    .agriculture__container {
+      .video__tag {
+        &__container {
+          width: 70px;
+          height: 70px;
+        }
+      }
+      .content {
+        p {
+          font-size: 14px;
+        }
+        h1 {
+          text-align: center;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  .discover {
+    .content {
+      h1 {
+        font-size: 39px;
+        line-height: 53px;
+      }
+      .btn {
+        padding: 18px 40px;
+      }
+    }
+  }
+  .banner {
+    .slick-slider {
+      .slick-track {
+        .slider__wrapper {
+          .content {
+            top: 20%;
+            left: 5%;
+            p {
+              font-size: 14px !important;
+              line-height: 26px;
+              letter-spacing: 0.2em;
+            }
+            h1 {
+              margin: 35px 0 33px;
+              font-size: 50px !important;
+              line-height: 60px;
+            }
+            button {
+              font-size: 16px;
+              padding: 17px 32px;
+            }
+          }
+        }
+      }
+    }
+    .banner__buttons {
+      button {
+        width: 145px;
+        height: 70px;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media screen and (max-width: 768px) {
+  footer {
+    .footer__wrapper {
+      &__top {
+        .cc {
+          display: block !important;
+
+          .explore {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media screen and (max-width: 992px) {
+  .header {
+    &__up {
+      &__up,
+      &__down {
+        display: none;
+      }
+    }
+    &__down {
+      .search__icon {
+        display: none;
+      }
+    }
+  }
+  .sponsors {
+    &__bottom {
+      .box {
+        padding: 20px 10px;
+        h1 {
+          padding: 0;
+        }
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+  .growing {
+    .image_container {
+      margin-bottom: 95px;
+    }
+    .products {
+      margin: 0 !important;
+      padding: 80px 30px 30px !important;
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media screen and (max-width: 1199.98px) {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media screen and (max-width: 1399.98px) {
+}

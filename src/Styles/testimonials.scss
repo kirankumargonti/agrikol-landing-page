@@ -1,0 +1,98 @@
+.testimonials {
+  background-color: $brand_three;
+  padding: 120px 0 0px;
+
+  &__left {
+    .green {
+      margin: 0;
+      text-transform: uppercase;
+      color: $brand_one;
+      font-size: 14px;
+      font-family: $Barlow;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      line-height: 24px;
+    }
+    h1 {
+      font-size: 60px;
+      color: $black;
+      font-family: $Amatic;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 1em;
+      margin-top: 10px;
+    }
+    img {
+      margin-bottom: 42px;
+    }
+    .infpoo {
+      font-family: $Barlow;
+      color: #878986;
+      font-size: 16px;
+      line-height: 34px;
+      font-weight: 500;
+      padding-bottom: 47px;
+    }
+  }
+  &__bottom {
+    background-color: #ffffff !important;
+    padding: 60px 0;
+    &__counter {
+      padding: 60px 0;
+      @include displayCenter(center, flex-start);
+      border-bottom: 1px solid rgb(212, 212, 212);
+      .circles {
+        background-color: $black;
+        min-width: 100px;
+        min-height: 100px;
+        border-radius: 50%;
+        margin-right: 25px;
+      }
+      div {
+        h1 {
+          font-family: $Amatic;
+          font-weight: 700;
+          font-size: 60px;
+        }
+        p {
+          font-family: $Barlow;
+          font-weight: 500;
+          color: $brand_one;
+        }
+      }
+    }
+  }
+  &__right {
+    padding: 67px 50px 80px;
+    border-radius: 5px;
+    background-color: $brand_one;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '';
+      height: 20px;
+      right: 20px;
+      left: 20px;
+      bottom: -20px;
+      background: #f8f4ef;
+      border-radius: 3px;
+    }
+    &:after {
+      position: absolute;
+      content: '';
+      height: 20px;
+      right: 40px;
+      left: 40px;
+      bottom: -40px;
+      background: #fbf9f6;
+      border-radius: 3px;
+    }
+    p {
+      color: #fff;
+      font-size: 30px;
+      margin: 0;
+      line-height: 45px;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.agriculture__types {
+  background: url('https://images.pexels.com/photos/6052983/pexels-photo-6052983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+    no-repeat center center/cover;
+  // background-color: teal;
+  height: 90vh;
+  width: 100%;
+  background-attachment: fixed;
+  padding: 120px 0 90px;
+  position: relative;
+  &:before {
+    @include transparentLayer;
+  }
+  .agriculture__container {
+    @include displayCenter(center, center);
+    flex-direction: column;
+    position: relative;
+
+    .video__tag {
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 15px;
+      cursor: pointer;
+      margin-bottom: 63px;
+      &__container {
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        background-color: $brand_two;
+        @include displayCenter(center, center);
+        border-radius: 5px;
+        svg {
+          font-size: 30px;
+          transition: all 0.5s ease-in-out;
+        }
+
+        &:hover {
+          background-color: $brand_one;
+          svg {
+            color: $brand_two;
+          }
+        }
+      }
+    }
+    .content {
+      p {
+        font-size: 18px;
+        margin: 0px;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-family: $Barlow;
+        text-align: center;
+        color: $brand_two;
+      }
+      h1 {
+        text-align: center;
+        font-size: 91px;
+        font-family: $Amatic;
+        margin-top: 14px;
+        font-weight: 700;
+        line-height: 1;
+        color: $white;
+      }
+    }
+  }
+}

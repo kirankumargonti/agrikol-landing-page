@@ -1,0 +1,60 @@
+.services {
+  background-color: $brand_three;
+  width: 100%;
+  padding: 120px 0 90px;
+  &__up {
+    // padding: 50px 0;
+    p {
+      color: $brand_one;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      font-family: $Barlow;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    h1 {
+      color: $black;
+      font-family: $Amatic;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 70px;
+    }
+    img {
+      margin: auto;
+      display: block;
+      object-fit: contain;
+    }
+  }
+  &__down {
+    @include displayCenter(center, space-between);
+    flex-wrap: wrap;
+    margin-top: 50px;
+    .box {
+      flex: 0 1 150px;
+      margin-bottom: 20px;
+      background: #ffffff;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      transition: all 0.5s ease-in-out;
+      margin: 0px auto 20px auto;
+      &:hover {
+        box-shadow: $box_shadow_three;
+      }
+      .top {
+        padding: 44px 50px 62px;
+        h2 {
+          font-size: 30px;
+          font-weight: 700;
+          padding-bottom: 36px;
+          font-family: $Amatic;
+          width: 50px;
+        }
+        p {
+          line-height: 34px;
+        }
+      }
+    }
+  }
+}

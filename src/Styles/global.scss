@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:wght@400;500;600&display=swap');
+
+// SASS VARIABLES
+$Amatic: 'Amatic SC', cursive;
+$Barlow: 'Barlow', sans-serif;
+
+$white: #fafafa;
+$black: #404a3d;
+$gray: #878986;
+$brand_one: #5b8c51;
+$brand_two: #eddd5e;
+$brand_three: #f5f0e9;
+
+$transition: all 0.3s ease-in-out;
+$box_shadow_one: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+  rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+$box_shadow_four: 0px 0px 4px 2px #ff8800;
+$box_shadow_two: 0px 1px 4px 3px rgba(0, 0, 0, 0.1);
+$box_shadow_three: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+// MIXINS
+
+@mixin displayCenter($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin transparentLayer {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  font-family: $Barlow;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p,
+a {
+  color: $gray;
+}
+
+svg {
+  vertical-align: middle;
+}

@@ -1,0 +1,37 @@
+.notfound {
+  background: url('https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+    no-repeat center center/cover;
+  height: 80vh;
+  width: 100% !important;
+  background-attachment: fixed !important;
+  position: relative !important;
+  &:before {
+    @include transparentLayer;
+  }
+  @include displayCenter(center, center);
+
+  .notfound_content {
+    position: relative;
+    text-align: center;
+    h1 {
+      font-family: $Amatic;
+      font-weight: 700;
+      color: $white;
+      font-size: 70px;
+    }
+    h5 {
+      font-family: $Barlow;
+      font-weight: 500;
+      color: $white;
+      //   font-size: 70px;
+    }
+    .back {
+      background-color: $brand_two;
+      font-family: $Barlow !important;
+      font-weight: 500;
+      font-size: 20px;
+      margin-top: 20px;
+      padding: 20px 25px;
+    }
+  }
+}

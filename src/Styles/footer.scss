@@ -1,0 +1,117 @@
+footer {
+  .footer__wrapper {
+    width: 100%;
+
+    &__top {
+      padding: 100px 0;
+      background-color: $black;
+      .title {
+        color: $white;
+        font-size: 30px;
+        margin: 0;
+        font-family: $Amatic;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 36px;
+        &:before {
+          position: absolute;
+          bottom: -8px;
+          left: 0;
+          height: 4px;
+          width: 20px;
+          background: $brand_two;
+          content: '';
+          border-radius: 5px;
+        }
+      }
+      p {
+        color: #cecdcd;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 500;
+        font-family: $Barlow;
+        text-transform: capitalize;
+      }
+      .input__wrapper {
+        @include displayCenter(center, space-between);
+        background-color: #394336;
+        font-size: 16px;
+        color: $gray;
+        height: 70px;
+        width: 100%;
+        padding: 0 30px;
+        border-radius: 5px;
+        input {
+          background-color: transparent;
+          border: none;
+          color: $gray;
+
+          &:focus {
+            outline: none;
+          }
+        }
+        svg {
+          font-size: 28px;
+          color: $brand_two;
+        }
+      }
+      .f__wrapper {
+        @include displayCenter(flex-start, space-between);
+        img {
+          display: block;
+          object-fit: contain;
+          border-radius: 5px;
+        }
+        p {
+          line-height: 24px;
+          margin-left: 20px;
+        }
+        .yellow__brand {
+          color: $brand_two;
+          line-height: 24px;
+        }
+      }
+      .yellow__brand {
+        color: $brand_two;
+      }
+      .icons__footer {
+        @include displayCenter(center, space-between);
+        .icon_wra {
+          min-width: 40px;
+          min-height: 40px;
+          border-radius: 50%;
+          background-color: #ffffff;
+          @include displayCenter(center, center);
+          cursor: pointer;
+        }
+      }
+      .cc {
+        @include displayCenter(center, center);
+        .explore {
+          @include displayCenter(flex-start, center);
+          flex-direction: column;
+        }
+      }
+    }
+    &__bottom {
+      background: #394336;
+      padding: 28px;
+      @include displayCenter(center, space-between);
+      flex-wrap: wrap;
+      h5 {
+        text-align: center;
+        font-size: 16px;
+        color: $white;
+        font-family: $Barlow;
+        font-weight: 500;
+        margin: 0 8px;
+        text-align: center;
+      }
+      div {
+        @include displayCenter(center, space-between);
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

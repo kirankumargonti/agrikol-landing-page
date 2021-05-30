@@ -1,0 +1,49 @@
+.discover {
+  background: url('https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+    no-repeat center center/cover;
+  // background-color: teal;
+  height: 90vh;
+  width: 100%;
+  background-attachment: fixed;
+  padding: 120px 0 90px;
+  position: relative;
+  &:before {
+    @include transparentLayer;
+    background-color: rgba(91, 140, 81, 0.9) !important;
+  }
+  .content {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+    h1 {
+      color: $white;
+      font-family: $Amatic;
+      font-size: 70px;
+      line-height: 78px;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+    p {
+      font-size: 20px;
+      font-family: $Barlow;
+      font-weight: 500;
+      color: $white;
+    }
+    .btn {
+        padding: 23px 50px;
+      font-family: $Barlow;
+      margin-top: 55px;
+      font-weight: 600;
+      color: $black;
+      font-size: 20px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      background-color: $brand_two;
+      &:hover {
+        box-shadow: $box_shadow_two;
+      }
+    }
+  }
+}

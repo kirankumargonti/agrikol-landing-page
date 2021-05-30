@@ -1,0 +1,35 @@
+.sponsors {
+  &__top {
+    margin-bottom: 20px;
+    padding: 125px 0 125px;
+    border-bottom: 1px solid #f5f0e9;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+  }
+  &__bottom {
+    padding: 120px 0 90px;
+
+    .box {
+      @include displayCenter(center, space-between);
+      background-color: $brand_one;
+      border-radius: 5px;
+      padding: 55px 67px 49px;
+      h1 {
+        font-family: $Amatic;
+        font-size: 30px;
+        margin: auto;
+        font-weight: 700;
+        padding: 0 18px;
+        color: $white;
+      }
+      img {
+        object-fit: contain;
+        display: block;
+      }
+    }
+  }
+}
