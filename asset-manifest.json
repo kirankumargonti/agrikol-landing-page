@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/agrikol-landing-page/static/css/main.6e7c79e6.chunk.css",
-    "main.js": "/agrikol-landing-page/static/js/main.7183443d.chunk.js",
-    "main.js.map": "/agrikol-landing-page/static/js/main.7183443d.chunk.js.map",
-    "runtime-main.js": "/agrikol-landing-page/static/js/runtime-main.fc20ed3d.js",
-    "runtime-main.js.map": "/agrikol-landing-page/static/js/runtime-main.fc20ed3d.js.map",
+    "main.css": "/agrikol-landing-page/static/css/main.4e5b3858.chunk.css",
+    "main.js": "/agrikol-landing-page/static/js/main.e01f0c95.chunk.js",
+    "main.js.map": "/agrikol-landing-page/static/js/main.e01f0c95.chunk.js.map",
+    "runtime-main.js": "/agrikol-landing-page/static/js/runtime-main.7a4658e3.js",
+    "runtime-main.js.map": "/agrikol-landing-page/static/js/runtime-main.7a4658e3.js.map",
     "static/css/2.e6201ce7.chunk.css": "/agrikol-landing-page/static/css/2.e6201ce7.chunk.css",
-    "static/js/2.b80009b5.chunk.js": "/agrikol-landing-page/static/js/2.b80009b5.chunk.js",
-    "static/js/2.b80009b5.chunk.js.map": "/agrikol-landing-page/static/js/2.b80009b5.chunk.js.map",
-    "static/js/3.3158b684.chunk.js": "/agrikol-landing-page/static/js/3.3158b684.chunk.js",
-    "static/js/3.3158b684.chunk.js.map": "/agrikol-landing-page/static/js/3.3158b684.chunk.js.map",
+    "static/js/2.84806b38.chunk.js": "/agrikol-landing-page/static/js/2.84806b38.chunk.js",
+    "static/js/2.84806b38.chunk.js.map": "/agrikol-landing-page/static/js/2.84806b38.chunk.js.map",
+    "static/js/3.65212691.chunk.js": "/agrikol-landing-page/static/js/3.65212691.chunk.js",
+    "static/js/3.65212691.chunk.js.map": "/agrikol-landing-page/static/js/3.65212691.chunk.js.map",
     "index.html": "/agrikol-landing-page/index.html",
     "static/css/2.e6201ce7.chunk.css.map": "/agrikol-landing-page/static/css/2.e6201ce7.chunk.css.map",
-    "static/css/main.6e7c79e6.chunk.css.map": "/agrikol-landing-page/static/css/main.6e7c79e6.chunk.css.map",
-    "static/js/2.b80009b5.chunk.js.LICENSE.txt": "/agrikol-landing-page/static/js/2.b80009b5.chunk.js.LICENSE.txt",
+    "static/css/main.4e5b3858.chunk.css.map": "/agrikol-landing-page/static/css/main.4e5b3858.chunk.css.map",
+    "static/js/2.84806b38.chunk.js.LICENSE.txt": "/agrikol-landing-page/static/js/2.84806b38.chunk.js.LICENSE.txt",
     "static/media/blog-1-img-1.c5fcfb8c.jpg": "/agrikol-landing-page/static/media/blog-1-img-1.c5fcfb8c.jpg",
     "static/media/blog-1-img-2.7012a31f.jpg": "/agrikol-landing-page/static/media/blog-1-img-2.7012a31f.jpg",
     "static/media/blog-1-img-3.1b8b106d.jpg": "/agrikol-landing-page/static/media/blog-1-img-3.1b8b106d.jpg",
     "static/media/product-1-img-1.7a7a09e9.jpg": "/agrikol-landing-page/static/media/product-1-img-1.7a7a09e9.jpg",
+    "static/media/recent-pro-img-1.56ed0381.jpg": "/agrikol-landing-page/static/media/recent-pro-img-1.56ed0381.jpg",
+    "static/media/recent-pro-img-2.f18541b3.jpg": "/agrikol-landing-page/static/media/recent-pro-img-2.f18541b3.jpg",
+    "static/media/recent-pro-img-3.30a1d9cb.jpg": "/agrikol-landing-page/static/media/recent-pro-img-3.30a1d9cb.jpg",
     "static/media/service-1-img-1.47959f14.jpg": "/agrikol-landing-page/static/media/service-1-img-1.47959f14.jpg",
     "static/media/service-1-img-2.088dcb97.jpg": "/agrikol-landing-page/static/media/service-1-img-2.088dcb97.jpg",
     "static/media/service-1-img-3.08b702ee.jpg": "/agrikol-landing-page/static/media/service-1-img-3.08b702ee.jpg",
@@ -28,10 +31,10 @@
     "static/media/slide_v1_3.7a7cce46.jpg": "/agrikol-landing-page/static/media/slide_v1_3.7a7cce46.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc20ed3d.js",
+    "static/js/runtime-main.7a4658e3.js",
     "static/css/2.e6201ce7.chunk.css",
-    "static/js/2.b80009b5.chunk.js",
-    "static/css/main.6e7c79e6.chunk.css",
-    "static/js/main.7183443d.chunk.js"
+    "static/js/2.84806b38.chunk.js",
+    "static/css/main.4e5b3858.chunk.css",
+    "static/js/main.e01f0c95.chunk.js"
   ]
 }
